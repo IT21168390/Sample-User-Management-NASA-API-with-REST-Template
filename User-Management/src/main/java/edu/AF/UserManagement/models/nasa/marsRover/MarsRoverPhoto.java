@@ -1,0 +1,13 @@
+package edu.AF.UserManagement.models.nasa.marsRover;
+
+import lombok.Data;
+
+@Data
+public class MarsRoverPhoto {
+    private int id;
+    private int sol;
+    private Camera camera;
+    private String img_src;
+    private String earth_date;
+    private Rover rover;
+}
